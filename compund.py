@@ -24,6 +24,6 @@ print("-----------SUMMARY---------")
 
 print (f"Your principal is{principal:.2f}")
 print (f"Your rate is {rate:.2f}")
-print (f"Your time is{time:.2f}")
+print (f"Your year is {time:.2f}")
 
 print (f"The balance after {time} year/s: ${amount:.2f}")
