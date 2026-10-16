@@ -5,8 +5,8 @@ while again.upper() == "Y":
 
 
     principal = 0
-rate = 0
-time = 0
+    rate = 0
+    time = 0
 
 
 while principal <= 0:
