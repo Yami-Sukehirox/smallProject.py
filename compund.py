@@ -1,16 +1,14 @@
 
+
 again = "Y"
+principal = 0
+        rate = 0
+        time = 0
 
 while again.upper() == "Y":
 
-
-    principal = 0
-    rate = 0
-    time = 0
-
-
-while principal <= 0:
-    principal = float(input("Enter your principal amount: "))
+    while principal <= 0:
+        principal = float(input("Enter your principal amount: "))
     if principal <= 0:
         print("Principal must not less than.")
 
