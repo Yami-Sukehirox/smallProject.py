@@ -29,6 +29,21 @@ while attempts < 3:
 
             print("\n------ ATM MENU --------\n")
             print("1. CHECK BALANCE\n")
-            print("2. WITHDRAW MONEY")
+            print("2. WITHDRAW MONEY\n")
+            print("3. DEPOSIT MONEY\n")
+            print("4. MINI STATEMENTS\n")
+            print("5. CHANGE PIN\n")
+            print("6. EXIT\n")
+
+
+            choice = input("Enter your chouce: ")
+
+            if choice == 1:
+                print (f"\nYour Balance is {balance:^.2f}")
+
+            elif choice == 2:
+                withdraw = float(input("Enter amount of withdraw: $"))
+
+                
 
 
